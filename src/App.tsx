@@ -190,7 +190,7 @@ export default function App() {
         <FinaleScene onRestart={restart} />
       </div>}
 
-      <AudioButton chapter={activeChapter} />
+      <AudioButton />
       {entered && <ChapterNavigation active={activeChapter} />}
 
     </div>
